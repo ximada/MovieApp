@@ -1,0 +1,95 @@
+
+body{
+    background-color: #23252a;
+    width: 100vw;
+    height: 100vh;
+}
+.header-app{
+    width: 100vw;
+    height: 8vh;
+    background-color: #6741da;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+  }
+
+  .movie-icon{
+    width: 10vw;
+    height: 10vh;
+    background-image:  url('../img/movie-icon.png');
+    background-position: center;
+    background-size:  contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1vw;
+    left: 3vh;
+    
+  }
+  .header-app h1{
+    position: absolute;
+    left: 15vw;
+    /*top: -11vh;*/
+  }
+  
+  .header-app h2{
+    position: absolute;
+    left: 80vw;
+    /*top: -20vh;*/
+  }
+  
+  input{
+  
+    width: 30vw;
+    height: 6vh;
+    background-color: #7950f2;
+    border-radius: 10px;
+    border-color: #7950f2;
+    position: absolute;
+    left: 30vw;
+    /*top: -20vh;*/
+    /*font-weight: 10vw;*/
+  }
+
+  #movie-Search{
+    width: 30vw;
+    height: 85vh;
+    position: absolute;
+    background-color: #2b3036;
+    border-radius: 10px;
+    top: 10vh;
+    left: 19vw;
+  
+  }
+  #movie-list{
+    width: 30vw;
+    height: 85vh;
+    position: absolute;
+    background-color: #2b3036;
+    border-radius: 10px;
+    top: 10vh;
+    left: 50vw
+  
+  }
+  
+  #movie-list #info-container{
+      width: 30vw;
+      height: 85vh;
+      border:  2px solid red;
+      border-radius:  15px;
+      color: white;
+      float: left;
+  
+  }
+  .container-item{
+    width: 25vw;
+    height: 15h;
+      border:  1px solid white;
+      border-radius:  15px;
+      color: white;
+      position: relative;
+  }
+  .container-item .more-info{
+    width: 5vw;
+    height: 2vh;
+  }
